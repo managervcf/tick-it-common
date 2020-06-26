@@ -1,0 +1,15 @@
+{
+  "name": "@tick-it/common",
+  "version": "1.0.0",
+  "description": "Common library for microservices in the tick-it project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "common",
+    "library"
+  ],
+  "author": "Mateusz Pyzowski",
+  "license": "ISC"
+}
