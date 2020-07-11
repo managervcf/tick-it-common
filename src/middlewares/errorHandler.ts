@@ -16,6 +16,7 @@ export const errorHandler = (
   }
   // Throw generic error
   else {
+    console.error(err);
     return res.status(400).send({
       errors: [{ message: 'Something went wrong' }],
     } as CommonErrorResponse);
