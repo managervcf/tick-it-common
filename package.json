@@ -1,6 +1,6 @@
 {
   "name": "@tick-it/common",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Common library for microservices in the tick-it project.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
