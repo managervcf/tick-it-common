@@ -14,7 +14,7 @@ export * from './events/ticket-updated-event';
 export * from './events/types/order-status';
 export * from './events/order-created-event';
 export * from './events/order-cancelled-event';
-export * from './events/expiration-completed';
+export * from './events/expiration-complete';
 
 export * from './middlewares/current-user';
 export * from './middlewares/error-handler';
