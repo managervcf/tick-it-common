@@ -5,6 +5,13 @@ export interface PaymentCreatedEvent {
   data: {
     id: string;
     chargeId: string;
-    orderId: string;
+    orderId: {
+      id: string;
+      price: number;
+    };
+    user: {
+      id: string;
+      email: string;
+    };
   };
 }
